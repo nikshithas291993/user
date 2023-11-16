@@ -3,7 +3,6 @@ import SIgnUpForm from "./SignUpForm";
 import { signUpApi } from "../api-helper/frontend/util";
 import { useState } from "react";
 import { Alert, Snackbar } from "@mui/material";
-import { useAuth } from '../../../container/src/AuthContext';
 const SignUpUser = () =>{
     const [message, setMessage] = useState(null);
     const [showMessage, setShowMessage] = useState(null);
