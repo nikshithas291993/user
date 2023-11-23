@@ -1,6 +1,6 @@
 import React from "react";
 import SIgnUpForm from "./SignUpForm";
-import { signUpApi } from "../api-helper/frontend/util";
+import { signUpApi } from "../../../container/src/api-helper/frontend/util";
 import { useState } from "react";
 import { Alert, Snackbar } from "@mui/material";
 const SignUpUser = () =>{
